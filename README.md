@@ -1,5 +1,11 @@
 ﻿# InstaHomeClone_DIO
+ 
+ [![LICENSE](https://img.shields.io/github/license/filipebarrosg/InstaHomeClone_DIO)](https://github.com/Filipebarrosg/InstaHomeClone_DIO/blob/main/LICENSE)
+ 
 Um projeto de Clone da tela inicial do Instagram proposto pela Digital Inovation One no Bootcamp HTML Web Developer
+
+### GitHub Pages
+[![Pages](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://filipebarrosg.github.io/InstaHomeClone_DIO/)
 
 ## Tecnologias Usadas
 
