@@ -1,10 +1,16 @@
 $btn-primary: #0095f6;
 
+@mixin flex ($propertie) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $propertie;
+}
+
 * {
   margin: auto;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  ;
 }
 
 html {
@@ -16,20 +22,11 @@ html {
   }
 }
 
-@mixin flex ($propertie) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: $propertie;
-}
-
 main {
   height: 100vh;
 
   .container {
-
     @include flex(row);
-
     width: 50%;
     height: 90%;
 
@@ -37,8 +34,6 @@ main {
       width: 100%;
       margin: 0;
     }
-
-
 
     .phone {
       width: 100%;
@@ -84,7 +79,6 @@ main {
           padding: 0;
         }
 
-
         #logo {
           width: 50%;
         }
@@ -106,6 +100,7 @@ main {
           font-size: 12px;
           font-weight: 500;
           color: white;
+          cursor: pointer;
         }
 
         a {

@@ -149,6 +149,7 @@ main .container .formLogin .topForm button {
   font-size: 12px;
   font-weight: 500;
   color: white;
+  cursor: pointer;
 }
 
 main .container .formLogin .topForm a {
