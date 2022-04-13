@@ -1,0 +1,270 @@
+* {
+  margin: auto;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+html {
+  margin: 0;
+}
+
+html body {
+  background: #FAFAFA;
+  width: 100%;
+}
+
+main {
+  height: 100vh;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  height: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  main .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+main .container .phone {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+  main .container .phone {
+    display: none;
+  }
+}
+
+main .container .phone img {
+  height: 90%;
+  display: block;
+}
+
+main .container .formLogin {
+  width: 90%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  right: 20%;
+  top: 2%;
+}
+
+@media screen and (max-width: 900px) {
+  main .container .formLogin {
+    right: 0;
+  }
+}
+
+main .container .formLogin .topForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem 2rem;
+  border: 1px solid lightgrey;
+  background: white;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  main .container .formLogin .topForm {
+    margin-right: 0;
+    padding: 0;
+  }
+}
+
+main .container .formLogin .topForm #logo {
+  width: 50%;
+}
+
+main .container .formLogin .topForm #profile {
+  width: 40%;
+  border-radius: 100%;
+  margin: 1rem auto;
+}
+
+main .container .formLogin .topForm button {
+  width: 70%;
+  height: auto;
+  padding: .5rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background: #0095f6;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+main .container .formLogin .topForm a {
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: .5rem;
+  font-weight: 500;
+  color: #0095f6;
+}
+
+main .container .formLogin .createAccount {
+  width: 100%;
+  height: auto;
+  background: white;
+  padding: 1rem 2rem;
+  margin: .5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid lightgrey;
+}
+
+@media screen and (max-width: 600px) {
+  main .container .formLogin .createAccount {
+    margin-right: 0;
+    padding: 0;
+  }
+}
+
+main .container .formLogin .createAccount p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main .container .formLogin .createAccount div {
+  font-size: 14px;
+}
+
+main .container .formLogin .createAccount div a {
+  text-decoration: none;
+  color: #0095f6;
+  font-weight: bold;
+}
+
+main .container .formLogin .appStores {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  main .container .formLogin .appStores {
+    margin-right: 0;
+    padding: 0;
+  }
+}
+
+main .container .formLogin .appStores p {
+  font-size: 14px;
+  text-align: center;
+}
+
+main .container .formLogin .appStores div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+main .container .formLogin .appStores div img {
+  width: 180px;
+}
+
+@media screen and (max-width: 900px) {
+  main .container .formLogin .appStores div img {
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main .container .formLogin .appStores div img {
+    width: 40vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */
